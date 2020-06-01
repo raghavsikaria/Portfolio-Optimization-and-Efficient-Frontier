@@ -9,7 +9,6 @@ Contains code using which I attempt to generate optimal portfolios and efficient
 [nifty_bank_efficient_frontier_img_path]: assets/NIFTYBANK_portfolio_efficient_frontier.png
 [nifty_bank_hiiks_efficient_frontier_gif_path]: assets/NIFTYBANK_HIIKSportfolio_efficient_frontier_gif.gif
 
-Hello reader, ever heard about the terms _Asset/Portfolio allocation_? If you have, chances are you've also heard about the MPT - Modern Portfolio Theory and Markovitz Efficient Frontier! Well this post and project are quite technical and will be based on these topics.
 
 So sometime back, I finished the famous [**Python For Financial Analysis and Algorithmic Trading**](https://www.udemy.com/course/python-for-finance-and-trading-algorithms/) on _Udemy_ by the genius instructor [**Jose Portilla**](https://www.linkedin.com/in/jmportilla/).
 In this project, I attempt to reuse the code provided in the course, extend it for generalization in Python and add some great & interactive visualizations using Bokeh. And I have chosen to work on NIFTYBANK Index Portfolio.
@@ -45,6 +44,7 @@ P.S: Like always all code can be found [here](https://github.com/raghavsikaria/P
 
 Well, to work on a portfolio of NIFTYBANK we first need the data! The current index has 12 constituents of which Bandhan Bank was the newest entry(added when it went Public on 27th March 2018). Hence, for this project I have decided to work only on data from 4th April 2018 to 22th May 2020. Let's see what the index looks like today (As of 25th May 2020)
 
+
 |Company|Symbol|Sector|Ownership|Closing Price|Market Cap (Cr.)|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Axis Bank|AXISBANK|Financial Services - Bank|Private|341.30|96,313.68|
@@ -59,6 +59,7 @@ Well, to work on a portfolio of NIFTYBANK we first need the data! The current in
 | PNB |PNB|Financial Services - Bank|Public|26.70|25,126.38|
 | RBL Bank|RBLBANK|Financial Services - Bank|Private|110.55|5,623.80|
 | SBI |SBIN|Financial Services - Bank|Public|151.40|135,118.62|
+
 
 Pandas_datareader + yfinance are going to be our best friends for getting Stock data free of charge on the run!
 This little code snippet should fix us up:
