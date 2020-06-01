@@ -45,20 +45,20 @@ P.S: Like always all code can be found [here](https://github.com/raghavsikaria/P
 Well, to work on a portfolio of NIFTYBANK we first need the data! The current index has 12 constituents of which Bandhan Bank was the newest entry(added when it went Public on 27th March 2018). Hence, for this project I have decided to work only on data from 4th April 2018 to 22th May 2020. Let's see what the index looks like today (As of 25th May 2020)
 
 
-|Company|Symbol|Sector|Ownership|Closing Price|Market Cap (Cr.)|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| Axis Bank|AXISBANK|Financial Services - Bank|Private|341.30|96,313.68|
-| Bandhan Bank|BANDHANBNK|Financial Services - Bank|Private|202.15|32,551.63|
-| Bank of Baroda|BANKBARODA|Financial Services - Bank|Public|37.10|17,142.30|
-| Federal Bank|FEDERALBNK|Financial Services - Bank|Private|38.45|7,663.49|
-| HDFC Bank|HDFCBANK|Financial Services - Bank|Private|852.40|467,451.36|
-| ICICI Bank|ICICIBANK|Financial Services - Bank|Private|292.70|189,517.39|
-| IDFC First Bank|IDFCFIRSTB|Financial Services - Bank|Private|19.85|9,547.66|
-| IndusInd Bank|INDUSINDBK|Financial Services - Bank|Private|348.20|24,149.75|
-| Kotak Mahindra|KOTAKBANK|Financial Services - Bank|Private|1,153.20|220,699.92|
-| PNB |PNB|Financial Services - Bank|Public|26.70|25,126.38|
-| RBL Bank|RBLBANK|Financial Services - Bank|Private|110.55|5,623.80|
-| SBI |SBIN|Financial Services - Bank|Public|151.40|135,118.62|
+| Company | Symbol | Sector | Ownership | Closing Price | Market Cap (Cr.) | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| Axis Bank | AXISBANK | Financial Services - Bank | Private | 341.30 | 96,313.68 | 
+| Bandhan Bank | BANDHANBNK | Financial Services - Bank | Private | 202.15 | 32,551.63 | 
+| Bank of Baroda | BANKBARODA | Financial Services - Bank | Public | 37.10 | 17,142.30 | 
+| Federal Bank | FEDERALBNK | Financial Services - Bank | Private | 38.45 | 7,663.49 | 
+| HDFC Bank | HDFCBANK | Financial Services - Bank | Private | 852.40 | 467,451.36 | 
+| ICICI Bank | ICICIBANK | Financial Services - Bank | Private | 292.70 | 189,517.39 | 
+| IDFC First Bank | IDFCFIRSTB | Financial Services - Bank | Private | 19.85 | 9,547.66 | 
+| IndusInd Bank | INDUSINDBK | Financial Services - Bank | Private | 348.20 | 24,149.75 | 
+| Kotak Mahindra | KOTAKBANK | Financial Services - Bank | Private | 1,153.20 | 220,699.92 | 
+| PNB  | PNB | Financial Services - Bank | Public | 26.70 | 25,126.38 | 
+| RBL Bank | RBLBANK | Financial Services - Bank | Private | 110.55 | 5,623.80 | 
+| SBI  | SBIN | Financial Services - Bank | Public | 151.40 | 135,118.62 | 
 
 
 Pandas_datareader + yfinance are going to be our best friends for getting Stock data free of charge on the run!
@@ -111,7 +111,7 @@ Let's try and churn out some insights from our generated data.
 
 ### Correlation between all NIFTYBANK Index stocks
 
-I have generated this correlation matrix using one of my other projects. You can find the entire code [here](https://github.com/raghavsikaria/Bokeh_CorrelationMatrix) in GitHub. (Try it out here on this blog, it's interactive!)
+I have generated this correlation matrix using one of my other projects. You can find the entire code [here](https://github.com/raghavsikaria/Bokeh_CorrelationMatrix) in GitHub. (Available on [my site](https://raghavsikaria.github.io/posts/2020-05-31-portfolio-allocation-and-efficient-frontier-generation), it's interactive!)
 
 
 ### NIFTYBANK Index Stocks - Daily Lognormalized Returns
