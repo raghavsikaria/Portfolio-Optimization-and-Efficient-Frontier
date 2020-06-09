@@ -1,0 +1,8 @@
+*.html linguist-detectable=false
+*.txt linguist-detectable=false
+*.png linguist-detectable=false
+*.md linguist-detectable=false
+*.csv linguist-detectable=false
+*.gif linguist-detectable=false
+*.bak linguist-detectable=false
+*.jpg linguist-detectable=false
